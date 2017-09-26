@@ -1,15 +1,18 @@
-- name: Why Hystreet?
-  path: why-hystreet/
-  section_id: why-hystreet
-- name: Features & Benefits
-  path: features-benefits/
-  section_id: features-benefits
-- name: Getting started
-  path: support/getting-started/
-  section_id: getting-started
-- name: Help & Support
-  path: support/
-  section_id: support
-- name: About Us
-  path: about-us/
-  section_id: about us
+- name: FAQs
+  path: ###
+  section_id: faqs
+- name: Training
+  path: ###
+  section_id: training
+- name: Guides
+  path: ###
+  section_id: guides
+- name: Knowledgebase
+  path: ###
+  section_id: knowledgebase
+- name: News
+  path: ###
+  section_id: news
+- name: Releases
+  path: ###
+  section_id: releases
