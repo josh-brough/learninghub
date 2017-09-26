@@ -1,6 +1,12 @@
 - name: FAQs
-  path: ###
   section_id: faqs
+  children:
+    - name: why do birds fly?
+      path: birds/
+    - name: where do babies come from?
+      path: babies/
+    - name: why is the sky blue?
+      path: sky/
 - name: Training
   path: ###
   section_id: training
