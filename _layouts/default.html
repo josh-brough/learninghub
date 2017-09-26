@@ -91,14 +91,14 @@ src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
       </div>
       <div class='full'>
         <div class='lh-row row'>
-            <div class="columns large-3 lh-left-nav">
+            <div class="columns left large-3 lh-left-nav">
               {% for item in site.side.nav %}
                   <li class="{{active_class}}">
                     <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
                   </li>
               {% endfor %}
             </div>
-            <div class="columns large-9 lh-content">
+            <div class="columns right large-9 lh-content">
 
               {{ content }}
 
