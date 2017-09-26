@@ -92,7 +92,7 @@ src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
       <div class='full'>
         <div class='lh-row row'>
             <div class="columns left large-3 lh-left-nav">
-              {% for item in site.data.side %}
+              {% for item in {{page.menu}} %}
 
                   {% if item.children %}
                     <li style="list-style: none;">
