@@ -93,9 +93,23 @@ src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
         <div class='lh-row row'>
             <div class="columns left large-3 lh-left-nav">
               {% for item in site.data.side %}
-                  <li class="{{active_class}}">
-                    <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
-                  </li>
+
+                  {% if item.children %}
+                    <li>
+                      <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                      <ul>
+                        {% for child in item.children %}
+                          <li>
+                            <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% else %}
+                    <li>
+                      <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                    </li>
+                  {% endif %}
               {% endfor %}
             </div>
             <div class="columns right large-9 lh-content">
