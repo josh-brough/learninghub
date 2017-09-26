@@ -26,8 +26,8 @@ function breadcrumbs() {
     for(y=1;y<x-i;y++){
       output += "../";
     }
-    output += bits[i] + "/\">" + bits[i] + "</a> » ";
+    output += bits[i] + "/\">" + bits[i] + "</a>";
   }
-  document.write(output + document.title);
+  document.write(output);
   document.write("</div>");
   }
