@@ -169,13 +169,13 @@ select {
 @media screen and (max-width: 550px) {
 
 .quote-marks::before {
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .quote-marks::after {
   margin-top: 50px;
 }
-  
+
 }
 .row.collapse > .column,
 .row.collapse > .columns {
@@ -663,7 +663,7 @@ select {
     padding-right: 0.9375rem;
     float: left;
   }
-  
+
   .medium-1 {
     width: 8.33333%;
   }
@@ -5173,7 +5173,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #0fafd4 none repeat scroll 0% 0%;
+  background: #e4e4e4 none repeat scroll 0% 0%;
 }
 .contain-to-grid .top-bar {
   margin-bottom: 0;
@@ -5331,7 +5331,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: #fff;
+  color: #0fafd4;
   padding: 12px 0 12px 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
