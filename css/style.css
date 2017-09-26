@@ -20,11 +20,11 @@ h2,
 h3,
 h4 {
   text-transform: none;
-  
+
 .homepage-h1 {
   text-transform: none !important;
   }
-  
+
 }
 
 .full {
@@ -1230,13 +1230,13 @@ body {
 .fb-agents {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 100% 
+	max-width: 100%
 }
 
 .fb-customers {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 100% 
+	max-width: 100%
 }
 
 .features-header {
@@ -1276,4 +1276,17 @@ body {
     width: 300px;
     padding-top: 10px;
     margin-bottom: 30px;
+}
+
+.lh-left-nav {
+  margin-right: 10%;
+}
+
+.lh-row {
+  background: #e4e4e4;
+}
+
+.lh-content {
+background: #FFFFFF;
+padding: 15px;
 }
