@@ -5548,7 +5548,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 967px) {
   .top-bar {
-    background: #0fafd4;
+    background: #e4e4e4;
     *zoom: 1;
     overflow: visible;
   }
@@ -5607,7 +5607,6 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 14px;
     line-height: 100px;
-    background: #0fafd4;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     color: #666;
