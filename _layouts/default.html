@@ -96,7 +96,7 @@ src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
 
                   {% if item.children %}
                     <li>
-                      <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                      {{ item.name }}
                       <ul>
                         {% for child in item.children %}
                           <li>

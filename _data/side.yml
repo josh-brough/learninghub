@@ -8,11 +8,8 @@
     - name: why is the sky blue?
       path: sky/
 - name: Training
-  path: ###
   section_id: training
 - name: Guides
-  path: ###
   section_id: guides
 - name: Knowledgebase
-  path: ###
   section_id: knowledgebase
