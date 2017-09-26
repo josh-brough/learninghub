@@ -10,9 +10,3 @@
 - name: Knowledgebase
   path: ###
   section_id: knowledgebase
-- name: News
-  path: ###
-  section_id: news
-- name: Releases
-  path: ###
-  section_id: releases

@@ -1,15 +1,3 @@
-- name: FAQs
-  path: ###
-  section_id: faqs
-- name: Training
-  path: ###
-  section_id: training
-- name: Guides
-  path: ###
-  section_id: guides
-- name: Knowledgebase
-  path: ###
-  section_id: knowledgebase
 - name: News
   path: ###
   section_id: news
