@@ -4,4 +4,4 @@
     - name: Geese
       path: birds/geese
     - name: Sparrows
-      path: babies/sparrows
+      path: birds/sparrows
