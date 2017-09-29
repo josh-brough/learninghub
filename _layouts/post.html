@@ -11,15 +11,14 @@ section_id: blog
 </h1>
 </div>
 <div class='post'>
-  <div class='timestamp left text-center'>
-    <span class='month'>{{ page.date | date: "%h" }}</span>
-    <span class='date'>{{ page.date | date: "%d" }}</span>
-  </div>
   <div class='info'>
     <p>
       By
       <span class='author'>{{ page.author }}</span>
     </p>
+    |
+    <span class='month'>{{ page.date | date: "%h" }}</span>
+    <span class='date'>{{ page.date | date: "%d" }}</span>
   </div>
   <div class='content'>
     {{ content }}
