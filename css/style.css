@@ -1157,7 +1157,10 @@ p.shortline {
     padding: 10px 10px 25px 10px;
     text-transform: capitalize;
   }
-  .blog-snippet li p a span div {
+  
+  .blog-snippet {}
+  
+  .blog-snippet {
     background: #e4e4e4;
     max-width: 50%;
     padding: 20px;
