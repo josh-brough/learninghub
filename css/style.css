@@ -1299,7 +1299,7 @@ padding: 15px;
   text-transform: capitalize;
 }
 
-.blog-snippet {
+li.blog-snippet {
   background: #e4e4e4;
   max-width: 50%;
   padding: 20px;
