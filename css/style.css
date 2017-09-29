@@ -299,6 +299,11 @@ p i {
   border-bottom: 1px solid #0fafd4;
 }
 
+p.shortline {
+  width: 100px;
+  height: 5px;
+  border-bottom: 1px solid #0fafd4;
+
 /*icon-text */
 .icon-text i {
   color: white;
