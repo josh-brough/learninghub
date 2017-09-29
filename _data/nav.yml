@@ -1,5 +1,5 @@
 - name: News
-  path: ###
+  path: /news/
   section_id: news
 - name: Releases
   path: ###
