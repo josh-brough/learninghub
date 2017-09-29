@@ -5,16 +5,17 @@ section_id: blog
 
 {{page.categories}}
 
-
+<div class="full">
+<h1>
+  <a href='{{page.url}}'>{{ page.title }}</a>
+</h1>
+</div>
 <div class='post'>
   <div class='timestamp left text-center'>
     <span class='month'>{{ page.date | date: "%h" }}</span>
     <span class='date'>{{ page.date | date: "%d" }}</span>
   </div>
   <div class='info'>
-    <h1>
-      <a href='{{page.url}}'>{{ page.title }}</a>
-    </h1>
     <p>
       By
       <span class='author'>{{ page.author }}</span>
