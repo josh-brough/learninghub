@@ -1157,9 +1157,7 @@ p.shortline {
     padding: 10px 10px 25px 10px;
     text-transform: capitalize;
   }
-  
-  .blog-snippet {}
-  
+ 
   .blog-snippet {
     background: #e4e4e4;
     max-width: 50%;
