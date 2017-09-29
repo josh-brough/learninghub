@@ -221,7 +221,7 @@ h1, h2, h3, h4 {
   background-size: cover;
 }
 
-/*header */
+
 
 .top-bar .name h1 img {
   display: inline;
@@ -243,7 +243,7 @@ h1, h2, h3, h4 {
   transition: background-color 300ms ease-out;
 }
 
-/*special title */
+
 
 .special-title i {
   font-size: 50px;
@@ -309,7 +309,7 @@ p.shortline {
   width: 100px;
   height: 5px;
   border-bottom: 1px solid #0fafd4;
-  /*icon-text */
+
   .icon-text i {
     color: white;
     background: #4caaf2;
@@ -388,7 +388,7 @@ p.shortline {
     background: none;
     color: #00b991;
   }
-  /*call-to-action */
+
   .call-to-action p {
     font-size: 1.375rem;
     font-family: "roboto", sans-serif;
@@ -397,7 +397,7 @@ p.shortline {
   .call-to-action a.button {
     margin-bottom: 0;
   }
-  /*milestone */
+
   .milestone {
     text-align: center;
     width: 88%;
@@ -412,7 +412,7 @@ p.shortline {
     padding: 25px 0 35px;
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
-  /*bar graph */
+
   .bars {
     margin: 0;
     list-style: none;
@@ -430,7 +430,7 @@ p.shortline {
     background: #00b991;
     height: 14px;
   }
-  /*member */
+
   .member {
     margin-top: 20px;
     cursor: pointer;
@@ -461,7 +461,7 @@ p.shortline {
   .member-intro.active {
     display: block;
   }
-  /*Socials */
+
   .socials a {
     display: inline-block;
   }
@@ -493,7 +493,7 @@ p.shortline {
   .socials i.grey:hover {
     background-color: #e63375;
   }
-  /*testimonials */
+
   p.quote {
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 20px 50px;
@@ -524,7 +524,7 @@ p.shortline {
   p.nav-control a.current span {
     background: white;
   }
-  /*form */
+
   input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
     padding: 15px;
     height: 3rem;
@@ -546,7 +546,7 @@ p.shortline {
     font-family: "PT sans";
     margin-bottom: 5px;
   }
-  /*footer */
+
   .footer {
     background: #232323;
     padding: 40px 0 20px;
@@ -563,7 +563,7 @@ p.shortline {
     color: #ffffff;
     font-size: 14px;
   }
-  /* slider customization */
+
   .orbit-container .orbit-timer, .orbit-container .orbit-slide-number {
     display: none;
   }
@@ -618,7 +618,7 @@ p.shortline {
   .testimonials .orbit-container .orbit-bullets li.active {
     background: white;
   }
-  /* gallery */
+
   ul.gallery img {
     width: 100%;
   }
@@ -662,7 +662,7 @@ p.shortline {
   ul.gallery li.hidden {
     opacity: 0.3;
   }
-  /* smart appear */
+
   .fadeinleft {
     -webkit-transform: translateX(-40px);
     -moz-transform: translateX(-40px);
@@ -695,7 +695,7 @@ p.shortline {
     transform: translateX(0px);
     opacity: 1;
   }
-  /* portfolio */
+
   ul#filter {
     margin: 0 auto;
     text-align: center;
@@ -734,7 +734,7 @@ p.shortline {
     background: #00b991;
     color: white;
   }
-  /*blog */
+
   .post {
     margin: 0 0 60px;
   }
@@ -862,7 +862,7 @@ p.shortline {
     padding-bottom: 12px;
     text-align: center;
   }
-  /* banner arrow */
+
   .banner__arrow:before {
     content: url(/images/down-arrow-white.svg);
   }
