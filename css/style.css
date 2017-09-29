@@ -16,10 +16,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 h1, h2, h3, h4 {
   text-transform: none;
-  .homepage-h1 {
+}
+.homepage-h1 {
     text-transform: none !important;
   }
-}
 
 .full {
   padding: 50px 0;
@@ -1157,9 +1157,13 @@ p.shortline {
     padding: 10px 10px 25px 10px;
     text-transform: capitalize;
   }
+<<<<<<< HEAD
 
   .blog-snippet {}
 
+=======
+ 
+>>>>>>> 26a5fcd5aadbd362181cf96ab4a2df4637c5e4d2
   .blog-snippet {
     background: #e4e4e4;
     max-width: 50%;
