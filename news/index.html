@@ -6,7 +6,12 @@ section_id: home
 ---
 <ul>
   {% for post in site.posts %}
-    <li class="blog-snippet">
+    <li class="blog-snippet" style="
+  background: #e4e4e4;
+  max-width: 50%;
+  padding: 20px;
+  margin-bottom: 50px;
+  list-style: none;">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <p>{{ post.description }}</p>
       <a href="{{ post.url }}">Read More</a>
