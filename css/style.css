@@ -271,7 +271,7 @@ p i {
   font-family: "roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
-  max-width: 75%;
+  /* max-width: 75%; */
   padding-bottom: 12px;
 }
 
