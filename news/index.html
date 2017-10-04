@@ -24,8 +24,8 @@ section_id: home
       <span class='date'>{{ post.date | date: "%d" }}</span>
             <h3 href="{{ post.url }}">{{ post.title }}</a></h3>
       <img src="{{ post.image }}" style="max-width: 500px; padding-bottom:10px; padding-top:10px">
-      <p>{{ post.description }}
-      <a href="{{ post.url }}">Read More</a></p>
+      <p>{{ post.description }}</p>
+      <p style="margin: auto 0;"><a href="{{ post.url }}">Read More</a></p>
       <p class='shortline'></p>
     </li>
   {% endfor %}
