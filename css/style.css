@@ -1167,3 +1167,11 @@ p.shortline {
     margin-bottom: 50px;
     list-style: none;
   }
+
+  .release-contain {;
+    max-width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    list-style: none;
+  }
