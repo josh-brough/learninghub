@@ -22,9 +22,10 @@ section_id: home
     <li class="blog-snippet">
       <span class='month'>{{ post.date | date: "%h" }}</span>
       <span class='date'>{{ post.date | date: "%d" }}</span>
-      <h3 href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.description }}</p>
-      <a href="{{ post.url }}">Read More</a>
+            <h3 href="{{ post.url }}">{{ post.title }}</a></h3>
+      <img src="{{post.image}}" style="max-width: 500px">
+      <p>{{ post.description }}
+      <a href="{{ post.url }}">Read More</a></p>
       <p class='shortline'></p>
     </li>
   {% endfor %}
