@@ -309,6 +309,7 @@ p.shortline {
   width: 100px;
   height: 5px;
   border-bottom: 1px solid #0fafd4;
+  margin: 0 auto;
 }
   .icon-text i {
     color: white;
