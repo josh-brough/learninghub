@@ -3,6 +3,7 @@ layout: post
 title:  "This is a title for your post"
 date:   2014-05-01 20:37:53 +0800
 author: Andy Budd
+image: /images/500x450.jpg
 ---
 
 Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id
