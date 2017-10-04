@@ -1162,6 +1162,7 @@ p.shortline {
     background: #e4e4e4;
     max-width: 50%;
     padding: 20px;
+    margin: 0 auto;
     margin-bottom: 50px;
     list-style: none;
   }
