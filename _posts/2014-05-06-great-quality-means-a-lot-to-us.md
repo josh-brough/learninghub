@@ -3,6 +3,7 @@ layout: post
 title:  "Great quality means a lot to us"
 date:   2014-05-05 20:37:53 +0800
 author: Andy Budd
+image: /images/600x400.jpg
 ---
 
 ![computers]({{site.url}}/images/blog-people.jpg)
