@@ -7,3 +7,6 @@ paginate: 3
 paginate_path: "blog/page:num"
 collections:
   - releases
+tipue_search:
+  include:
+    pages: true
