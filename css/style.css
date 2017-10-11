@@ -17,9 +17,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 h1, h2, h3, h4 {
   text-transform: none;
 }
-  .homepage-h1 {
-    text-transform: none !important;
-  }
+
+.homepage-h1 {
+  text-transform: none !important;
+}
+
 }
 
 .full {
@@ -310,6 +312,7 @@ p.shortline {
   width: 100px;
   height: 5px;
   border-bottom: 1px solid #0fafd4;
+}
   /*icon-text */
   .icon-text i {
     color: white;
@@ -1147,7 +1150,7 @@ p.shortline {
     width: 300px;
     padding-top: 10px;
     margin-bottom: 30px;
-<<<<<<< HEAD
+    <<<<<<< HEAD
   }
   .lh-left-nav {}
   .lh-row {}
@@ -1166,22 +1169,20 @@ p.shortline {
     margin-bottom: 50px;
     list-style: none;
   }
-=======
+  =======
 }
 
-.lh-left-nav {
-}
+.lh-left-nav {}
 
-.lh-row {
-}
+.lh-row {}
 
 .lh-content {
-background: #FFFFFF;
-padding: 15px;
+  background: #FFFFFF;
+  padding: 15px;
 }
 
 .topnav {
- 	padding: 10px 10px 25px 10px;
+  padding: 10px 10px 25px 10px;
   text-transform: capitalize;
 }
 
@@ -1192,4 +1193,5 @@ padding: 15px;
   margin-bottom: 50px;
   list-style: none;
 }
->>>>>>> 90b95f246efe892f04502fd3beec33c75eca8d4a
+
+>>>>>>>90b95f246efe892f04502fd3beec33c75eca8d4a
