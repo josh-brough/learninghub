@@ -1,4 +1,3 @@
-
 /*
 Tipue Search 6.1
 Copyright (c) 2017 Tipue
@@ -17,39 +16,85 @@ var tipuesearch_stop_words = ["a", "about", "above", "after", "again", "against"
 
 // Word replace
 
-var tipuesearch_replace = {'words': [
-     {'word': 'tip', 'replace_with': 'tipue'},
-     {'word': 'javscript', 'replace_with': 'javascript'},
-     {'word': 'jqeury', 'replace_with': 'jquery'}
-]};
+var tipuesearch_replace = {
+  'words': [{
+      'word': 'tip',
+      'replace_with': 'tipue'
+    },
+    {
+      'word': 'javscript',
+      'replace_with': 'javascript'
+    },
+    {
+      'word': 'jqeury',
+      'replace_with': 'jquery'
+    }
+  ]
+};
 
 
 // Weighting
 
-var tipuesearch_weight = {'weight': [
-     {'url': 'http://www.tipue.com', 'score': 20},
-     {'url': 'http://www.tipue.com/search', 'score': 30},
-     {'url': 'http://www.tipue.com/is', 'score': 10}
-]};
+var tipuesearch_weight = {
+  'weight': [{
+      'url': 'http://www.tipue.com',
+      'score': 20
+    },
+    {
+      'url': 'http://www.tipue.com/search',
+      'score': 30
+    },
+    {
+      'url': 'http://www.tipue.com/is',
+      'score': 10
+    }
+  ]
+};
 
 
 // Illogical stemming
 
-var tipuesearch_stem = {'words': [
-     {'word': 'e-mail', 'stem': 'email'},
-     {'word': 'javascript', 'stem': 'jquery'},
-     {'word': 'javascript', 'stem': 'js'}
-]};
+var tipuesearch_stem = {
+  'words': [{
+      'word': 'e-mail',
+      'stem': 'email'
+    },
+    {
+      'word': 'javascript',
+      'stem': 'jquery'
+    },
+    {
+      'word': 'javascript',
+      'stem': 'js'
+    }
+  ]
+};
 
 
 // Related searches
 
-var tipuesearch_related = {'searches': [
-     {'search': 'tipue', 'related': 'Tipue Search'},
-     {'search': 'tipue', 'before': 'Tipue Search', 'related': 'Getting Started'},
-     {'search': 'tipue', 'before': 'Tipue', 'related': 'jQuery'},
-     {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'}
-]};
+var tipuesearch_related = {
+  'searches': [{
+      'search': 'tipue',
+      'related': 'Tipue Search'
+    },
+    {
+      'search': 'tipue',
+      'before': 'Tipue Search',
+      'related': 'Getting Started'
+    },
+    {
+      'search': 'tipue',
+      'before': 'Tipue',
+      'related': 'jQuery'
+    },
+    {
+      'search': 'tipue',
+      'before': 'Tipue',
+      'related': 'Blog'
+    }
+  ]
+};
 
 
 // Internal strings
@@ -77,4 +122,3 @@ var tipuesearch_string_15 = 'Searches related to';
 // Timer for showTime
 
 var startTimer = new Date().getTime();
-
