@@ -9,6 +9,9 @@
       path: sky/
 - name: Training
   section_id: training
+  children:
+    - name: dogs
+      path: dogs/
 - name: Guides
   section_id: guides
 - name: Knowledgebase
