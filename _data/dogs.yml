@@ -1,0 +1,7 @@
+- name: Birds
+  section_id: faqs
+  children:
+    - name: Pooches
+      path: dogs/pooches
+    - name: Puppers
+      path: dogs/puppers
