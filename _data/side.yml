@@ -1,6 +1,8 @@
 - name: FAQs
   section_id: faqs
-  path: faqs/
+  children:
+    - name: All FAQs
+      path: faqs/
 - name: Training
   section_id: training
 - name: Guides
