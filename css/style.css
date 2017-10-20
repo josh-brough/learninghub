@@ -2234,4 +2234,13 @@ body {
     margin-bottom: 50px;
     list-style: none;
   }
->>>>>>> parent of 18bb111... Adding tipue config
+
+.side-parent {
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.side-child {
+  margin-bottom: 10px;
+}
