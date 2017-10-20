@@ -1,17 +1,8 @@
 - name: FAQs
   section_id: faqs
-  children:
-    - name: why do birds fly?
-      path: birds/
-    - name: where do babies come from?
-      path: babies/
-    - name: why is the sky blue?
-      path: sky/
+  path: faqs/
 - name: Training
   section_id: training
-  children:
-    - name: dogs
-      path: dogs/
 - name: Guides
   section_id: guides
 - name: Knowledgebase
