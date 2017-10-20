@@ -1,7 +1,0 @@
-- name: Birds
-  section_id: faqs
-  children:
-    - name: Geese
-      path: birds/geese
-    - name: Sparrows
-      path: birds/sparrows
