@@ -9,13 +9,13 @@
       path: faqs/notification-emails
     - name: Could I arrange an open day for for a property?
       path: faqs/open-day-how-to
-    - name: why can I book multiple appointments in the same slot on the staff site?
+    - name: Why can I book multiple appointments in the same slot on the staff site?
       path: faqs/staff-double-booking
-    - name: am I at risk of double bookings being made from the consumer site?
+    - name: Am I at risk of double bookings being made from the consumer site?
       path: faqs/consumer-double-booking
-    - name: are available booking slots taken from the agent's availability or the vendors?
+    - name: Are available booking slots taken from the agent's availability or the vendors?
       path: faqs/manage-viewings-by
-    - name: can I run test properties?
+    - name: Can I run test properties?
       path: faqs/stripe-test-keys
-    - name: where can I find my Stripe keys?
+    - name: Where can I find my Stripe keys?
       path: faqs/finding-stripe-keys
