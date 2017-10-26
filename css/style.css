@@ -17,16 +17,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 h1, h2, h3, h4 {
   text-transform: none;
 }
-<<<<<<< HEAD
 
 .homepage-h1 {
   text-transform: none !important;
 }
-=======
-.homepage-h1 {
-    text-transform: none !important;
-  }
->>>>>>> parent of 18bb111... Adding tipue config
+
 
 .full {
   padding: 50px 0;
