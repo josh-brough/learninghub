@@ -1846,6 +1846,11 @@ body {
   .post pre {
     margin: 0 0 20px;
   }
+  .post img {
+    margin: 0 auto 30px;
+    display: block;
+    max-width:75%
+  }
   .pager {
     overflow: auto;
     border-top: 1px solid #e9e9e9;
