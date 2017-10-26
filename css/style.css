@@ -2234,6 +2234,9 @@ body {
   max-width: 500px;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
   .release-contain {;
