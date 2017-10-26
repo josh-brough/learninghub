@@ -30,8 +30,7 @@ section_id: home
             <h3 href="{{ post.url }}">{{ post.title }}</a></h3>
       <img src="{{ post.image }}">
       <p>{{ post.description }}</p>
-      <p style="margin: auto 0;"><a href="{{ post.url }}">Read More</a></p>
-      <p class='shortline'></p>
+      <p class="readmore"><a href="{{ post.url }}">Read More</a></p>
     </li>
   {% endfor %}
 </ul>
