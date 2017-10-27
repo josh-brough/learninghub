@@ -1,0 +1,9 @@
+- name: Guides
+  section_id: guides
+  children:
+    - name: Admin Setup
+      path: guides/admin-setup
+    - name: From The Staff Site
+      path: guides/staff-site
+    - name: From The Consumer Site
+      path: guides/consumer-site
