@@ -11,8 +11,12 @@
 - name: Guides
   section_id: guides
   children:
-    - name: Coming soon
-      path: coming-soon/
+    - name: Admin Setup
+      path: admin-setup
+    - name: From the Staff Site
+      path: staff-site
+    - name: From the Consumer Site
+      path: consumer-site
 - name: Knowledgebase
   section_id: knowledgebase
   children:
