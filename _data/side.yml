@@ -12,11 +12,11 @@
   section_id: guides
   children:
     - name: Admin Setup
-      path: admin-setup
+      path: guides/admin-setup
     - name: From the Staff Site
-      path: staff-site
+      path: guides/staff-site
     - name: From the Consumer Site
-      path: consumer-site
+      path: guides/consumer-site
 - name: Knowledgebase
   section_id: knowledgebase
   children:
