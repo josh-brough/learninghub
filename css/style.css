@@ -313,6 +313,9 @@ p.shortline {
   border-bottom: 1px solid #0fafd4;
 <<<<<<< HEAD
 }
+.readmore {
+  max-width: 77px;
+  border-bottom: 1px solid #0fafd4;
 
 /*icon-text */
 
@@ -1801,8 +1804,15 @@ body {
   .post {
     margin: 0 0 60px;
   }
+  .post-title {
+    margin: auto;
+    text-align: center;
+  }
+
   .post .info, .post .content {
-    margin-left: 110px;
+    max-width: 75%;
+    padding-bottom: 12px;
+    margin: auto;
   }
   .post .info h3 {
     font-size: 24px;
@@ -1838,6 +1848,11 @@ body {
   }
   .post pre {
     margin: 0 0 20px;
+  }
+  .post img {
+    margin: 0 auto 30px;
+    display: block;
+    max-width:75%
   }
   .pager {
     overflow: auto;
@@ -2234,6 +2249,9 @@ body {
   max-width: 500px;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
   .release-contain {;

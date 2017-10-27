@@ -5,7 +5,16 @@
       path: faqs/
 - name: Training
   section_id: training
+  children:
+    - name: Coming soon
+      path: coming-soon/
 - name: Guides
   section_id: guides
+  children:
+    - name: Coming soon
+      path: coming-soon/
 - name: Knowledgebase
   section_id: knowledgebase
+  children:
+    - name: Coming soon
+      path: coming-soon/
