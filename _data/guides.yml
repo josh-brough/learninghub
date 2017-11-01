@@ -9,6 +9,6 @@
       path: guides/consumer-site
       children:
         - name: The Sellers' Process
-          path: guides/consumer-site/sellers-process
+          path: guides/consumer-site/the-sellers-process
         - name: The Buyers' Process
           path: guides/consumer-site/buyers-process
