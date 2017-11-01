@@ -311,7 +311,6 @@ p.shortline {
   width: 100px;
   height: 5px;
   border-bottom: 1px solid #0fafd4;
-<<<<<<< HEAD
 }
 .readmore {
   max-width: 77px;
@@ -1319,7 +1318,6 @@ body {
   width: 300px;
   padding-top: 10px;
   margin-bottom: 30px;
-  <<<<<<< HEAD
 }
 
 .lh-left-nav {}
@@ -2270,4 +2268,14 @@ body {
 
 .side-child {
   margin-bottom: 10px;
+}
+
+.background-contain {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.block-margin-auto {
+  margin: 0 auto;
 }
